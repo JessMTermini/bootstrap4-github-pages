@@ -3,8 +3,8 @@
 
 
 // Variables
-
-$body-bg-image: linear-gradient(90deg, shade-color($cyan, 10%), shade-color($purple, 10%), shade-color($pink, 5%)) !important;
+background-image: linear-gradient(90deg, #33b7e2, #5e62b0, #dc307c);
+$body-bg-image: linear-gradient(90deg, shade-color($cyan, 10%), shade-color($purple, 10%), shade-color($pink, 5%)) !default;
 $frosted-opacity: .3 !default;
 
 @mixin glass($opacity: $frosted-opacity, $bg: $white) {
